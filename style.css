@@ -25,7 +25,8 @@ a:active    {color: orange;}
 /* Footer is set to be centered and padded. */
 footer{
     text-align: center;
-      padding: 3px;
+    padding: 3px;
+    height: 50px
 }
 /* Creating a box for the Header that is centered, padded, and gold */
 .box-it {
@@ -43,6 +44,12 @@ footer{
     color: #660066;
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background: #660066;
+}
+
 /* Golden Background */
 .gold-bg{
     background-color:gold;
@@ -50,6 +57,7 @@ footer{
 
 img {
   border: 5px solid #660066;
+  height: 480px
 }
 
 .center-image{

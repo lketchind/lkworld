@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <h1 class="box-it">Who Am I?</h1>
+        <h1 id="top" class="box-it">Who Am I?</h1>
     </header>
 
     <nav>
@@ -22,7 +22,7 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <hr width="50%">
+    <hr>
 
 
 
@@ -35,14 +35,14 @@
         <!-- Photo with my name underneath. -->
         <div class="center-text puple-font">
             <img src="images/LKPhoto_Suit.jpg" alt="Photo of me in a suit.">
-            <h2 class="purple-font">Lemarr Ketchens</h2>
+            <h2 class="purple-font" id="myname">Lemarr Ketchens</h2>
         </div>
 
 
         <!-- Introduction with my hobbies in a numbered list. -->
-        <div class="purple-font">
+        <div class="purple-font" id="intro">
             <p>I am Lemarr Ketchens, and I am a Software Engineer from the great city of Chicago, Illinois. In my spare time, I have a few hobbies, which I have listed.</p>
-            <h3>Hobbies:</h3>
+            <h3 id="hobbies">Hobbies:</h3>
             <ol>
                 <li>Dancing</li>
                 <li>Music / DJ-ing</li>
@@ -55,10 +55,10 @@
         <!-- Line Separator -->
         <hr>
 
-        <article id="about">
+        <article>
             <div class="purple-font">
                 <!-- General Information about me using a header and paragraph. -->
-                <h3>About Me</h3>
+                <h3 id="about">About Me</h3>
                 <p>Again, my name is Lemarr Ketchens, and I am a Chicago native. I am the first in my immediate family to attend a four-year college/university. The university that I attended was Western Illinois
                     Illinois University (WIU), which is located in Macomb, Illinois.</p>
 
@@ -68,7 +68,7 @@
 
                 <!-- Created a section to list my goal using the bullet list. -->
                 <section>
-                    <h3>Goals Achieved:</h3>
+                    <h3 id="goals">Goals Achieved:</h3>
                     <ul>
                         <li>Graduate from college.</li>
                         <li>Begin my career in the computer field.</li>
@@ -84,11 +84,11 @@
             <!-- Line Separator -->
             <hr>
 
-        <article id="contact">
+        <article>
             <div class="purple-font">
             <!-- Section for my Contact Information that has links to GitHub and LinkedIn. Link change color when the mouse hovers over. -->
             <section>
-                <h3>Contact</h3>
+                <h3 id="contact">Contact</h3>
                 <p>If you find my profile interesting and would like to know more, please click the links that have been provided. Thank you.</p>
                 <nav>
                     <a href="https://www.linkedin.com/in/lketch4">LinkedIn</a>
@@ -104,8 +104,11 @@
     </div>
 
     <div class="gold-bg purple-font">
-        <footer>
+        <footer id="bottom">
             <p><strong>(c) LK Industries Chicago - 2022 </strong></p>
+            <p></p>
+            <a href="#top">Go To Top</a>
+
         </footer>
     </div>
 

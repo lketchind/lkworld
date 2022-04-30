@@ -26,7 +26,7 @@ a:active    {color: orange;}
 footer{
     text-align: center;
     padding: 3px;
-    height: 50px
+    height: 75px
 }
 /* Creating a box for the Header that is centered, padded, and gold */
 .box-it {

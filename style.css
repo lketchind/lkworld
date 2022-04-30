@@ -1,0 +1,73 @@
+/* Top Header is centered */
+header{
+    font-size: 48px;
+    text-align: center;
+}
+
+p{
+    margin-left: 100px;
+}
+
+/* Enter page has a background color. */
+body{
+    background: beige;
+}
+
+/* Centering all navigation*/
+nav{text-align: center;}
+
+/* */
+a:link      {color: blue;}
+a:visited   {color: red;}
+a:hover     {color: green;}
+a:active    {color: orange;}
+
+/* Footer is set to be centered and padded. */
+footer{
+    text-align: center;
+      padding: 3px;
+}
+/* Creating a box for the Header that is centered, padded, and gold */
+.box-it {
+  margin: 0px 0%;
+  background-color: gold;
+  padding: 20px;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  color: #660066;
+}
+
+/* Purple Font */
+.purple-font{
+    font-family: "Times New Roman", serif;
+    color: #660066;
+}
+
+/* Golden Background */
+.gold-bg{
+    background-color:gold;
+}
+
+img {
+  border: 5px solid #660066;
+}
+
+.center-image{
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+}
+
+ol,ul{
+    margin-left:auto;
+    margin-right: auto;
+    width: 10%
+}
+
+h1, h2, h3{
+    text-align:center;
+}
+/* Center text */
+.center-text{
+    text-align:center;
+}
